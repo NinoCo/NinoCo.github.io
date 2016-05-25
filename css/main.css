@@ -302,7 +302,7 @@ a:active {
 
 	.nav_li {
 		float: left;
-		margin-right: 20px;
+		margin-right: 40px;
 	}
 
 	.nav_bar {
@@ -311,7 +311,7 @@ a:active {
 
 	.nav {
 		height: 18%;
-		font-size: 25px;
+		font-size: 27px;
 	}
 
 	.pillar {
