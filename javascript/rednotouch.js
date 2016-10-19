@@ -16,7 +16,7 @@ function init() {
   gameObjects = [];
   for (i=0;i<map.obstacles.length;i++) {
     obj = map.obstacles[i];
-    gameObjects.push(new GameObject(obj[0], obj[1], obj[2], obj[3], "red"));
+    gameObjects.push(new GameObject(obj[0], obj[1], obj[2], obj[3], obj[4]));
   }
   for (i=0;i<map.players.length;i++) {
     obj = map.players[i];
