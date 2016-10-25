@@ -82,8 +82,6 @@ function playerUpdate(){
 var other = detectCollision(this);
 if (other) {
   if (other.color === "cyan") {
-    this.x = this.startX;
-    this.y = this.startY;
     alert("You win!");
   } else {
     this.x = this.startX;
