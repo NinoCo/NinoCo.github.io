@@ -82,10 +82,15 @@ function playerUpdate(){
   if (keys[38]) { this.speedY = -2; }
   if (keys[40]) { this.speedY = 2; }
 
-  if (detectCollision(this)) {
+var other = detectCollision(this);
+if (other) { // collision if truthy
+  if (other.color === "yellow") {
+    alert("You win!");
+  } else {
     this.x = this.startX;
     this.y = this.startY;
   }
+}
 }
 
 function detectCollision(myObject) {
