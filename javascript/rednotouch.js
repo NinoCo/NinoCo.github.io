@@ -83,6 +83,7 @@ var other = detectCollision(this);
 if (other) {
   if (other.color === "cyan") {
     alert("You win!");
+    window.location.reload();
   } else {
     this.x = this.startX;
     this.y = this.startY;
