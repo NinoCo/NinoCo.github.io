@@ -278,9 +278,9 @@ var map = {
     [ 290, 440, 70, 10, "red" ], // 14
     
     [ 290, 20, 60, 60, "yellow" ], // goal top left
-    [ 730, 20, 60, 60, "yellow" ], // goal top right
-    [ 730, 320, 60, 60, "yellow" ], // goal bottom right
-    [ 290, 320, 60, 60, "yellow" ], // goal bottom left
+    [ 730, 20, 60, 60 ], // goal top right
+    [ 730, 320, 60, 60 ], // goal bottom right
+    [ 290, 320, 60, 60 ], // goal bottom left
   ],
   "players": [
     [ 240, 40, 20, 20 ],
