@@ -81,7 +81,7 @@ function playerUpdate(){
 
 var other = detectCollision(this);
 if (other) {
-  if (other.color === "yellow") {
+  if (other.color === "cyan") {
     this.x = this.startX;
     this.y = this.startY;
     alert("You win!");
@@ -277,10 +277,10 @@ var map = {
     [ 360, 500, 60, 10, "red" ], // 13
     [ 290, 440, 70, 10, "red" ], // 14
     
-    [ 290, 20, 60, 60, "yellow" ], // goal top left
-    [ 730, 20, 60, 60 ], // goal top right
-    [ 730, 320, 60, 60 ], // goal bottom right
-    [ 290, 320, 60, 60 ], // goal bottom left
+    [ 290, 20, 60, 60, "aqua" ], // goal top left
+    [ 730, 20, 60, 60, "cyan" ], // goal top right
+    [ 730, 320, 60, 60, "cyan" ], // goal bottom right
+    [ 290, 320, 60, 60, "cyan" ], // goal bottom left
   ],
   "players": [
     [ 240, 40, 20, 20 ],
