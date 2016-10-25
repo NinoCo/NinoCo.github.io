@@ -83,6 +83,8 @@ var other = detectCollision(this);
 if (other) {
   if (other.color === "yellow") {
     alert("You win!");
+    this.x = this.startX;
+    this.y = this.startY;
   } else {
     this.x = this.startX;
     this.y = this.startY;
