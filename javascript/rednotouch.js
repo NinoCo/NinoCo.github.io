@@ -50,7 +50,6 @@ function render() {
 
 
 function GameObject(x, y, width, height, color, _update) {
-  // init
   this.x = this.startX = x;
   this.y = this.startY = y;
   this.width = width;
@@ -61,10 +60,8 @@ function GameObject(x, y, width, height, color, _update) {
   this._update = _update && _update.bind(this);
   
   this.update = function() {
-    // physics
     this.x += this.speedX;
     this.y += this.speedY;
-    // specific rules for this particular object
     if (this._update) this._update();
   }
   
@@ -83,7 +80,7 @@ function playerUpdate(){
   if (keys[40]) { this.speedY = 2; }
 
 var other = detectCollision(this);
-if (other) { // collision if truthy
+if (other) {
   if (other.color === "yellow") {
     alert("You win!");
   } else {
