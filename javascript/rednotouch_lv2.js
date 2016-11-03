@@ -157,6 +157,7 @@ var map = {
     [ 10, 90, 10, 70, "red" ] // 34
     [ 10, 20, 10, 70, "red" ] //35
     
+    [ 160, 230, 60, 60, "yellow" ] // goal top left 
   ],
   "players": [
     [ 180, 40, 20, 20, ] // player top left
