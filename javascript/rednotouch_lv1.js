@@ -275,6 +275,9 @@ var map = {
     [ 360, 500, 60, 10, "red" ], // 13
     [ 290, 440, 70, 10, "red" ], // 14
     
+    [ 0, 295, 880, 10, "red" ], 
+    [ 435, 0, 10, 600, "red" ], 
+    
     [ 290, 20, 60, 60, "yellow" ], // goal top left
     [ 730, 20, 60, 60, "yellow" ], // goal top right
     [ 730, 320, 60, 60, "yellow" ], // goal bottom right
