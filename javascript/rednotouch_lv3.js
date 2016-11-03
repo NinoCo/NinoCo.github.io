@@ -162,6 +162,6 @@ var map = {
     [ 160, 230, 60, 60, "yellow" ], // area top left
   ],
   "players": [
-    [ 400, 260, 20, 20 ], // player top left
+    [ 390, 250, 20, 20 ], // player top left
   ]
 };
