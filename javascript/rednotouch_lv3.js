@@ -83,6 +83,7 @@ var other = detectCollision(this);
 if (other) {
   if (other.color === "yellow") {
     window.location.href = "https://ninoco.github.io/rednotouch_lv1.html";
+    stop.playerUpdate();
   } else {
     this.x = this.startX;
     this.y = this.startY;
