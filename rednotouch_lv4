@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="css/game_rednotouch_lv4.css"/>
+	<script type="text/javascript" src="javascript/rednotouch_lv4.js"></script>
+	<title>Game</title>
+</head>
+<body>
+<canvas width="900" height="620"></canvas>
+<script> init(); </script>
+</body>
