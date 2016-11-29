@@ -82,7 +82,7 @@ function playerUpdate(){
 var other = detectCollision(this);
 if (other) {
   if (other.color === "yellow") {
-    alert("You win! I'm surprised you even got this far Sam...");
+    alert("You win!");
     stop.playerUpdate();
   } else {
     this.x = this.startX;
